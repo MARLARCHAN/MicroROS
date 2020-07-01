@@ -1,0 +1,1 @@
+1) Forum -> ask how to compile for STM32F429I
