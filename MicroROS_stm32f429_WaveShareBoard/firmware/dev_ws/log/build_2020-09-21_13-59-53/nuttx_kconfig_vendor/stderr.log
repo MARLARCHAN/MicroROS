@@ -1,0 +1,16 @@
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+In file included from [01m[Klibs/parser/yconf.c:2507[m[K:
+[01m[Klibs/parser/confdata.c:[m[K In function ‘[01m[Kconf_write[m[K’:
+[01m[Klibs/parser/confdata.c:776:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K.tmpconfig.[m[K’ directive writing 11 bytes into a region of size between 1 and 4097 [[01;35m[K-Wformat-overflow=[m[K]
+  776 |   sprintf(tmpname, [01;35m[K"%s.tmpconfig.%d"[m[K, dirname, (int)getpid());
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[Klibs/parser/yconf.c:82[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 13 and 4119 bytes into a destination of size 4097
+   36 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.

@@ -1,0 +1,246 @@
+[0.033s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/microros/microros_ws/firmware/mcu_ws/ros2/libyaml_vendor -DBUILD_SHARED_LIBS=OFF -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/home/microros/microros_ws/firmware/apps/uros/arm_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor
+[0.159s] -- The C compiler identification is GNU 9.2.1
+[0.273s] -- The CXX compiler identification is GNU 9.2.1
+[0.286s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc
+[0.375s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc -- works
+[0.376s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.471s] -- Detecting C compile features
+[0.471s] -- Detecting C compile features - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++
+[0.575s] -- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ -- works
+[0.575s] -- Detecting CXX compiler ABI info
+[0.679s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Detecting CXX compile features
+[0.694s] -- Detecting CXX compile features - done
+[0.698s] -- Found ament_cmake: 0.9.6 (/home/microros/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+[0.748s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[0.751s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.087s] CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.087s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.087s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.087s]   set the policy and suppress this warning.
+[1.087s] 
+[1.087s]   For compatibility with older versions of CMake, option is clearing the
+[1.087s]   normal variable 'BUILD_TESTING'.
+[1.087s] Call Stack (most recent call first):
+[1.087s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.088s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.088s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.088s]   CMakeLists.txt:5 (find_package)
+[1.088s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.088s] 
+[1.243s] -- Configuring done
+[1.248s] -- Generating done
+[1.251s] -- Build files have been written to: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor
+[1.255s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/microros/microros_ws/firmware/mcu_ws/ros2/libyaml_vendor -DBUILD_SHARED_LIBS=OFF -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/home/microros/microros_ws/firmware/apps/uros/arm_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor
+[1.258s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor -- -j4 -l4
+[1.287s] make[4]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[1.287s] /usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/ros2/libyaml_vendor -B/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor --check-build-system CMakeFiles/Makefile.cmake 0
+[1.301s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/progress.marks
+[1.311s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.315s] make[5]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[1.315s] /usr/bin/make -f CMakeFiles/libyaml-10c9078.dir/build.make CMakeFiles/libyaml-10c9078.dir/depend
+[1.317s] make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[1.317s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/ros2/libyaml_vendor /home/microros/microros_ws/firmware/mcu_ws/ros2/libyaml_vendor /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078.dir/DependInfo.cmake --color=
+[1.330s] Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078.dir/depend.internal".
+[1.330s] Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078.dir/depend.internal".
+[1.330s] [35m[1mScanning dependencies of target libyaml-10c9078[0m
+[1.332s] make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[1.332s] /usr/bin/make -f CMakeFiles/libyaml-10c9078.dir/build.make CMakeFiles/libyaml-10c9078.dir/build
+[1.333s] make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[1.341s] [ 12%] [34m[1mCreating directories for 'libyaml-10c9078'[0m
+[1.342s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078
+[1.350s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build
+[1.360s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix
+[1.370s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/tmp
+[1.377s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp
+[1.384s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src
+[1.393s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp
+[1.402s] /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-mkdir
+[1.421s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'libyaml-10c9078'[0m
+[1.422s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src && /usr/bin/cmake -P /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/download-libyaml-10c9078.cmake
+[1.431s] -- Downloading...
+[1.431s]    dst='/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+[1.431s]    timeout='60 seconds'
+[1.431s] -- Using src='https://github.com/yaml/libyaml/archive/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+[2.264s] -- verifying file...
+[2.265s]        file='/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+[2.267s] -- Downloading... done
+[2.267s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src && /usr/bin/cmake -P /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/verify-libyaml-10c9078.cmake
+[2.279s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src && /usr/bin/cmake -P /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/extract-libyaml-10c9078.cmake
+[2.309s] -- extracting...
+[2.309s]      src='/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/10c907871f1ccd779c7fccf6b81a62762b5c4e7b.zip'
+[2.309s]      dst='/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078'
+[2.310s] -- extracting... [tar xfz]
+[2.328s] -- extracting... [analysis]
+[2.329s] -- extracting... [rename]
+[2.329s] -- extracting... [clean up]
+[2.330s] -- extracting... done
+[2.330s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src && /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-download
+[2.370s] [ 37%] [34m[1mNo patch step for 'libyaml-10c9078'[0m
+[2.371s] /usr/bin/cmake -E echo_append
+[2.381s] /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-patch
+[2.393s] [ 50%] [34m[1mNo update step for 'libyaml-10c9078'[0m
+[2.394s] /usr/bin/cmake -E echo_append
+[2.421s] /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-update
+[2.456s] [ 62%] [34m[1mPerforming configure step for 'libyaml-10c9078'[0m
+[2.457s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF -DCMAKE_TOOLCHAIN_FILE=/home/microros/microros_ws/firmware/apps/uros/arm_toolchain.cmake "-GUnix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078
+[2.472s] Re-run cmake no build system arguments
+[2.575s] -- The C compiler identification is GNU 9.2.1
+[2.592s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc
+[2.654s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc -- works
+[2.655s] -- Detecting C compiler ABI info
+[2.725s] -- Detecting C compiler ABI info - done
+[2.737s] -- Detecting C compile features
+[2.738s] -- Detecting C compile features - done
+[2.738s] CMake Warning (dev) at CMakeLists.txt:10 (option):
+[2.739s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[2.739s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[2.739s]   set the policy and suppress this warning.
+[2.739s] 
+[2.739s]   For compatibility with older versions of CMake, option is clearing the
+[2.739s]   normal variable 'BUILD_SHARED_LIBS'.
+[2.739s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.739s] 
+[2.739s] CMake Warning (dev) at CMakeLists.txt:55 (add_library):
+[2.739s]   ADD_LIBRARY called with SHARED option but the target platform does not
+[2.740s]   support dynamic linking.  Building a STATIC library instead.  This may lead
+[2.740s]   to problems.
+[2.740s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.740s] 
+[2.758s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CTest.cmake:50 (option):
+[2.758s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[2.758s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[2.758s]   set the policy and suppress this warning.
+[2.759s] 
+[2.759s]   For compatibility with older versions of CMake, option is clearing the
+[2.759s]   normal variable 'BUILD_TESTING'.
+[2.759s] Call Stack (most recent call first):
+[2.759s]   CMakeLists.txt:101 (include)
+[2.759s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.759s] 
+[2.770s] -- Configuring done
+[2.773s] -- Generating done
+[2.774s] -- Build files have been written to: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build
+[2.775s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-configure
+[2.797s] [ 75%] [34m[1mPerforming build step for 'libyaml-10c9078'[0m
+[2.798s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/make
+[2.800s] make[7]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[2.800s] /usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078 -B/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build --check-build-system CMakeFiles/Makefile.cmake 0
+[2.812s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/progress.marks
+[2.819s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[2.820s] make[8]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[2.821s] /usr/bin/make -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/depend
+[2.822s] make[9]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[2.822s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078 /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078 /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/DependInfo.cmake --color=
+[2.832s] Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/depend.internal".
+[2.832s] Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/depend.internal".
+[2.832s] [35m[1mScanning dependencies of target yaml[0m
+[2.846s] make[9]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[2.846s] /usr/bin/make -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/build
+[2.854s] make[9]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[2.861s] [ 11%] [32mBuilding C object CMakeFiles/yaml.dir/src/dumper.c.obj[0m
+[2.864s] [ 22%] [32mBuilding C object CMakeFiles/yaml.dir/src/api.c.obj[0m
+[2.865s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/api.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/api.c
+[2.869s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/dumper.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/dumper.c
+[2.870s] [ 33%] [32mBuilding C object CMakeFiles/yaml.dir/src/emitter.c.obj[0m
+[2.872s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/emitter.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/emitter.c
+[2.875s] [ 44%] [32mBuilding C object CMakeFiles/yaml.dir/src/loader.c.obj[0m
+[2.876s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/loader.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/loader.c
+[3.137s] [ 55%] [32mBuilding C object CMakeFiles/yaml.dir/src/parser.c.obj[0m
+[3.138s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/parser.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/parser.c
+[3.154s] [ 66%] [32mBuilding C object CMakeFiles/yaml.dir/src/reader.c.obj[0m
+[3.155s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/reader.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/reader.c
+[3.366s] [ 77%] [32mBuilding C object CMakeFiles/yaml.dir/src/scanner.c.obj[0m
+[3.367s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/scanner.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/scanner.c
+[3.544s] [ 88%] [32mBuilding C object CMakeFiles/yaml.dir/src/writer.c.obj[0m
+[3.545s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DHAVE_CONFIG_H -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/include -I/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/yaml.dir/src/writer.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078/src/writer.c
+[5.892s] [100%] [32m[1mLinking C static library libyaml.a[0m
+[5.893s] /usr/bin/cmake -P CMakeFiles/yaml.dir/cmake_clean_target.cmake
+[5.901s] /usr/bin/cmake -E cmake_link_script CMakeFiles/yaml.dir/link.txt --verbose=1
+[5.907s] /usr/bin/arm-none-eabi-ar qc libyaml.a  CMakeFiles/yaml.dir/src/api.c.obj CMakeFiles/yaml.dir/src/dumper.c.obj CMakeFiles/yaml.dir/src/emitter.c.obj CMakeFiles/yaml.dir/src/loader.c.obj CMakeFiles/yaml.dir/src/parser.c.obj CMakeFiles/yaml.dir/src/reader.c.obj CMakeFiles/yaml.dir/src/scanner.c.obj CMakeFiles/yaml.dir/src/writer.c.obj
+[5.910s] /usr/bin/arm-none-eabi-ranlib libyaml.a
+[5.914s] make[9]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.925s] [100%] Built target yaml
+[5.926s] make[8]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.926s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles 0
+[5.935s] make[7]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.935s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-build
+[5.957s] [ 87%] [34m[1mPerforming install step for 'libyaml-10c9078'[0m
+[5.958s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/make install
+[5.961s] make[7]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.961s] /usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078 -B/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build --check-build-system CMakeFiles/Makefile.cmake 0
+[5.971s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/progress.marks
+[5.981s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[5.982s] make[8]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.982s] /usr/bin/make -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/depend
+[5.986s] make[9]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.986s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078 /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078 /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles/yaml.dir/DependInfo.cmake --color=
+[5.994s] make[9]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.994s] /usr/bin/make -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/build
+[5.999s] make[9]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[5.999s] make[9]: Nothing to be done for 'CMakeFiles/yaml.dir/build'.
+[6.000s] make[9]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[6.007s] [100%] Built target yaml
+[6.008s] make[8]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[6.008s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build/CMakeFiles 0
+[6.016s] /usr/bin/make -f CMakeFiles/Makefile2 preinstall
+[6.017s] make[8]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[6.017s] make[8]: Nothing to be done for 'preinstall'.
+[6.017s] make[8]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[6.027s] [36mInstall the project...[0m
+[6.028s] /usr/bin/cmake -P cmake_install.cmake
+[6.037s] -- Install configuration: "RelWithDebInfo"
+[6.037s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/yaml.h
+[6.037s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/config.h
+[6.037s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.a
+[6.037s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
+[6.038s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
+[6.038s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-relwithdebinfo.cmake
+[6.038s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake
+[6.039s] make[7]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build'
+[6.040s] cd /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-build && /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-install
+[6.061s] [100%] [34m[1mCompleted 'libyaml-10c9078'[0m
+[6.062s] /usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles
+[6.069s] /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-10c9078-complete
+[6.076s] /usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-10c9078-prefix/src/libyaml-10c9078-stamp/libyaml-10c9078-done
+[6.084s] make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[6.095s] [100%] Built target libyaml-10c9078
+[6.096s] make[5]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[6.096s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles 0
+[6.104s] make[4]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor'
+[6.106s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor -- -j4 -l4
+[6.150s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor
+[6.164s] -- Install configuration: "RelWithDebInfo"
+[6.164s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/cmake
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/cmake/yamlConfigVersion.cmake
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/cmake/yamlConfig.cmake
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/cmake/yamlTargets-relwithdebinfo.cmake
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/cmake/yamlTargets.cmake
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/include
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/include/yaml.h
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/lib
+[6.165s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/lib/libyaml.a
+[6.166s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/environment/library_path.sh
+[6.166s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/environment/library_path.dsv
+[6.166s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/ament_index/resource_index/package_run_dependencies/libyaml_vendor
+[6.167s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/ament_index/resource_index/parent_prefix_path/libyaml_vendor
+[6.167s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/environment/ament_prefix_path.sh
+[6.167s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/environment/ament_prefix_path.dsv
+[6.167s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/environment/path.sh
+[6.168s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/environment/path.dsv
+[6.168s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/local_setup.bash
+[6.168s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/local_setup.sh
+[6.168s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/local_setup.zsh
+[6.168s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/local_setup.dsv
+[6.168s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/package.dsv
+[6.169s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/ament_index/resource_index/packages/libyaml_vendor
+[6.169s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/cmake/libyaml_vendor-extras.cmake
+[6.169s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/cmake/ament_cmake_export_libraries-extras.cmake
+[6.170s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.170s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/cmake/libyaml_vendorConfig.cmake
+[6.170s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/cmake/libyaml_vendorConfig-version.cmake
+[6.170s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/package.xml
+[6.176s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor

@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libtracetools.a  CMakeFiles/tracetools.dir/src/tracetools.c.obj CMakeFiles/tracetools.dir/src/utils.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libtracetools.a

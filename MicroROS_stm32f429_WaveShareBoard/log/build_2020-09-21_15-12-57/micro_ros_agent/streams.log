@@ -1,0 +1,53 @@
+[0.247s] Invoking command in '/home/microros/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/microros/microros_ws/install/microxrcedds_agent:/home/microros/microros_ws/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/microros/microros_ws/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PATH=/home/microros/microros_ws/install/microxrcedds_agent/bin:${PATH} /usr/bin/cmake /home/microros/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/install/micro_ros_agent
+[0.248s] Not searching for unused variables given on the command line.
+[0.506s] -- The CXX compiler identification is GNU 9.3.0
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.636s] -- Detecting CXX compiler ABI info
+[0.717s] -- Detecting CXX compiler ABI info - done
+[0.729s] -- Detecting CXX compile features
+[0.733s] -- Detecting CXX compile features - done
+[0.908s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.327s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[1.327s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.070s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.110s] -- Looking for C++ include pthread.h
+[7.203s] -- Looking for C++ include pthread.h - found
+[7.204s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.288s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.288s] -- Looking for pthread_create in pthreads
+[7.354s] -- Looking for pthread_create in pthreads - not found
+[7.354s] -- Looking for pthread_create in pthread
+[7.431s] -- Looking for pthread_create in pthread - found
+[7.433s] -- Found Threads: TRUE  
+[7.788s] -- Configuring done
+[7.800s] -- Generating done
+[7.801s] -- Build files have been written to: /home/microros/microros_ws/build/micro_ros_agent
+[7.809s] Invoked command in '/home/microros/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/microros/microros_ws/install/microxrcedds_agent:/home/microros/microros_ws/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/microros/microros_ws/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PATH=/home/microros/microros_ws/install/microxrcedds_agent/bin:${PATH} /usr/bin/cmake /home/microros/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/install/micro_ros_agent
+[7.812s] Invoking command in '/home/microros/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/microros/microros_ws/install/microxrcedds_agent:/home/microros/microros_ws/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/microros/microros_ws/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PATH=/home/microros/microros_ws/install/microxrcedds_agent/bin:${PATH} /usr/bin/cmake --build /home/microros/microros_ws/build/micro_ros_agent -- -j4 -l4
+[7.855s] [35m[1mScanning dependencies of target micro_ros_agent[0m
+[7.946s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[9.084s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[10.558s] [100%] Built target micro_ros_agent
+[10.569s] Invoked command in '/home/microros/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/microros/microros_ws/install/microxrcedds_agent:/home/microros/microros_ws/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/microros/microros_ws/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PATH=/home/microros/microros_ws/install/microxrcedds_agent/bin:${PATH} /usr/bin/cmake --build /home/microros/microros_ws/build/micro_ros_agent -- -j4 -l4
+[10.591s] Invoking command in '/home/microros/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/microros/microros_ws/install/microxrcedds_agent:/home/microros/microros_ws/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/microros/microros_ws/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PATH=/home/microros/microros_ws/install/microxrcedds_agent/bin:${PATH} /usr/bin/cmake --install /home/microros/microros_ws/build/micro_ros_agent
+[10.601s] -- Install configuration: ""
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[10.602s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[10.603s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[10.603s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[10.603s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.603s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[10.603s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[10.603s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[10.603s] -- Installing: /home/microros/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[10.604s] -- Set runtime path of "/home/microros/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[10.607s] Invoked command in '/home/microros/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/microros/microros_ws/install/microxrcedds_agent:/home/microros/microros_ws/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/microros/microros_ws/install/microxrcedds_agent/lib:${LD_LIBRARY_PATH} PATH=/home/microros/microros_ws/install/microxrcedds_agent/bin:${PATH} /usr/bin/cmake --install /home/microros/microros_ws/build/micro_ros_agent

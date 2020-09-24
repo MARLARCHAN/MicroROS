@@ -1,0 +1,61 @@
+make[4]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+/usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/ros2/rcl_logging/rcl_logging_noop -B/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsExport-relwithdebinfo.cmake
+-- Found ament_cmake_ros: 0.9.0 (/home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rcutils: 1.1.0 (/home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake)
+CMake Warning at /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+/usr/bin/make -f CMakeFiles/rcl_logging_noop.dir/build.make CMakeFiles/rcl_logging_noop.dir/depend
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+cd /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/ros2/rcl_logging/rcl_logging_noop /home/microros/microros_ws/firmware/mcu_ws/ros2/rcl_logging/rcl_logging_noop /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop/CMakeFiles/rcl_logging_noop.dir/DependInfo.cmake --color=
+Dependee "/home/microros/microros_ws/firmware/NuttX/include/nuttx/config.h" is newer than depender "CMakeFiles/rcl_logging_noop.dir/src/rcl_logging_noop/rcl_logging_noop.cpp.obj".
+Clearing dependencies in "/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop/CMakeFiles/rcl_logging_noop.dir/depend.make".
+[35m[1mScanning dependencies of target rcl_logging_noop[0m
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+/usr/bin/make -f CMakeFiles/rcl_logging_noop.dir/build.make CMakeFiles/rcl_logging_noop.dir/build
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+[ 50%] [32mBuilding CXX object CMakeFiles/rcl_logging_noop.dir/src/rcl_logging_noop/rcl_logging_noop.cpp.obj[0m
+/usr/bin/arm-none-eabi-g++ --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -DROS_PACKAGE_NAME=\"rcl_logging_noop\" -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/../../../include  -std=c++14 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/rcl_logging_noop.dir/src/rcl_logging_noop/rcl_logging_noop.cpp.obj -c /home/microros/microros_ws/firmware/mcu_ws/ros2/rcl_logging/rcl_logging_noop/src/rcl_logging_noop/rcl_logging_noop.cpp
+[100%] [32m[1mLinking CXX static library librcl_logging_noop.a[0m
+/usr/bin/cmake -P CMakeFiles/rcl_logging_noop.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rcl_logging_noop.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc librcl_logging_noop.a  CMakeFiles/rcl_logging_noop.dir/src/rcl_logging_noop/rcl_logging_noop.cpp.obj
+/usr/bin/arm-none-eabi-ranlib librcl_logging_noop.a
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+[100%] Built target rcl_logging_noop
+make[5]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop/CMakeFiles 0
+make[4]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/rcl_logging_noop'
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/lib/librcl_logging_noop.a
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/library_path.sh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/library_path.dsv
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/ament_index/resource_index/package_run_dependencies/rcl_logging_noop
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/ament_index/resource_index/parent_prefix_path/rcl_logging_noop
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/ament_prefix_path.sh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/path.sh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/path.dsv
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.bash
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.sh
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.zsh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.dsv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/package.dsv
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/ament_index/resource_index/packages/rcl_logging_noop
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/rcl_logging_noopConfig.cmake
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/rcl_logging_noopConfig-version.cmake
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/rcl_logging_noop/share/rcl_logging_noop/package.xml
