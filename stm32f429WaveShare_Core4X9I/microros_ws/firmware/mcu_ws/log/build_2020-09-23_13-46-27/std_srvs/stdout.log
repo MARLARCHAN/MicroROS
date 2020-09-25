@@ -1,0 +1,192 @@
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.6 (/home/microros/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/home/microros/microros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 1.1.0 (/home/microros/microros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.2") 
+-- Found ament_cmake_ros: 0.9.0 (/home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs
+make[4]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+/usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs -B/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+/usr/bin/make -f CMakeFiles/std_srvs__rosidl_generator_c.dir/build.make CMakeFiles/std_srvs__rosidl_generator_c.dir/depend
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+/usr/bin/python3 /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c__arguments.json
+cd /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_generator_c.dir/DependInfo.cmake --color=
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_generator_c.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_generator_c.dir/depend.internal".
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_generator_c.dir/depend.internal".
+[35m[1mScanning dependencies of target std_srvs__rosidl_generator_c[0m
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+/usr/bin/make -f CMakeFiles/std_srvs__rosidl_generator_c.dir/build.make CMakeFiles/std_srvs__rosidl_generator_c.dir/build
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[ 20%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c.obj[0m
+[ 20%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c
+[ 26%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c
+[ 33%] [32m[1mLinking C static library libstd_srvs__rosidl_generator_c.a[0m
+/usr/bin/cmake -P CMakeFiles/std_srvs__rosidl_generator_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/std_srvs__rosidl_generator_c.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libstd_srvs__rosidl_generator_c.a  CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c.obj CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c.obj CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c.obj
+/usr/bin/arm-none-eabi-ranlib libstd_srvs__rosidl_generator_c.a
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[ 33%] Built target std_srvs__rosidl_generator_c
+/usr/bin/make -f CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/depend
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[ 40%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+/usr/bin/python3 /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c --generator-arguments-file /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c__arguments.json
+cd /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/DependInfo.cmake --color=
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/depend.internal".
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/depend.internal".
+[35m[1mScanning dependencies of target std_srvs__rosidl_typesupport_microxrcedds_c[0m
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+/usr/bin/make -f CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/build
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[ 46%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rmw/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/../../../include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu99 -o CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c
+[ 53%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rmw/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/../../../incl[ 60%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c.obj[0m
+ude -isystem /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu99 -o CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rmw/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/../../../include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu99 -o CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c
+[ 66%] [32m[1mLinking C static library libstd_srvs__rosidl_typesupport_microxrcedds_c.a[0m
+/usr/bin/cmake -P CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libstd_srvs__rosidl_typesupport_microxrcedds_c.a  CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c.obj CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c.obj CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c.obj
+/usr/bin/arm-none-eabi-ranlib libstd_srvs__rosidl_typesupport_microxrcedds_c.a
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[ 66%] Built target std_srvs__rosidl_typesupport_microxrcedds_c
+/usr/bin/make -f CMakeFiles/std_srvs__rosidl_typesupport_c.dir/build.make CMakeFiles/std_srvs__rosidl_typesupport_c.dir/depend
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[ 73%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+/usr/bin/python3 /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_microxrcedds_c
+cd /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_c.dir/DependInfo.cmake --color=
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_c.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_c.dir/depend.internal".
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_c.dir/depend.internal".
+[35m[1mScanning dependencies of target std_srvs__rosidl_typesupport_c[0m
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+/usr/bin/make -f CMakeFiles/std_srvs__rosidl_typesupport_c.dir/build.make CMakeFiles/std_srvs__rosidl_typesupport_c.dir/build
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[ 80%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp.obj[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp.obj[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp.obj[0m
+/usr/bin/arm-none-eabi-g++ --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rmw/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/../../../include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include  -std=c++14 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp.obj -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp
+/usr/bin/arm-none-eabi-g++ --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rmw/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/../../../include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include  -std=c++14 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp.obj -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp
+/usr/bin/arm-none-eabi-g++ --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -DROS_PACKAGE_NAME=\"std_srvs\" -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_c -I/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++ -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rmw/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/../../../include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/include -isystem /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include  -std=c++14 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp.obj -c /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp
+[100%] [32m[1mLinking CXX static library libstd_srvs__rosidl_typesupport_c.a[0m
+/usr/bin/cmake -P CMakeFiles/std_srvs__rosidl_typesupport_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/std_srvs__rosidl_typesupport_c.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libstd_srvs__rosidl_typesupport_c.a  CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp.obj CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp.obj CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libstd_srvs__rosidl_typesupport_c.a
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[100%] Built target std_srvs__rosidl_typesupport_c
+/usr/bin/make -f CMakeFiles/std_srvs.dir/build.make CMakeFiles/std_srvs.dir/depend
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+cd /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs.dir/DependInfo.cmake --color=
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs.dir/depend.internal".
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles/std_srvs.dir/depend.internal".
+[35m[1mScanning dependencies of target std_srvs[0m
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+/usr/bin/make -f CMakeFiles/std_srvs.dir/build.make CMakeFiles/std_srvs.dir/build
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+make[6]: Nothing to be done for 'CMakeFiles/std_srvs.dir/build'.
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+[100%] Built target std_srvs
+make[5]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles 0
+make[4]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/std_srvs'
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__functions.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/empty__struct.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__struct.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__type_support.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__functions.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__functions.c
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/empty__type_support.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__struct.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/empty__functions.c
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__type_support.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__functions.c
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/empty__functions.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/set_bool.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/trigger.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/empty.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/environment/library_path.sh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/environment/library_path.dsv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.a
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.a
+-- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Empty.idl
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/SetBool.idl
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Trigger.idl
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Empty.srv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/SetBool.srv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Trigger.srv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/environment/path.sh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/environment/path.dsv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/local_setup.bash
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/local_setup.sh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/local_setup.zsh
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/local_setup.dsv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/package.dsv
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cExport.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cExport-relwithdebinfo.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-relwithdebinfo.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/std_srvs/share/std_srvs/package.xml

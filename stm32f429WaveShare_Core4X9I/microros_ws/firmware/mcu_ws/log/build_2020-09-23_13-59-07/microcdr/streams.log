@@ -1,0 +1,31 @@
+[0.065s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/microros/microros_ws/firmware/mcu_ws/build/microcdr -- -j4 -l4
+[0.097s] make[3]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.097s] /usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/microros/microros_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[0.117s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/progress.marks
+[0.125s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.127s] make[4]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.127s] /usr/bin/make -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/depend
+[0.129s] make[5]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.129s] cd /home/microros/microros_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/microros/microros_ws/firmware/mcu_ws/build/microcdr /home/microros/microros_ws/firmware/mcu_ws/build/microcdr /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake --color=
+[0.140s] make[5]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.140s] /usr/bin/make -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/build
+[0.141s] make[5]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.142s] make[5]: Nothing to be done for 'CMakeFiles/microcdr.dir/build'.
+[0.142s] make[5]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.149s] [100%] Built target microcdr
+[0.150s] make[4]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.150s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[0.159s] make[3]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[0.174s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/microros/microros_ws/firmware/mcu_ws/build/microcdr -- -j4 -l4
+[0.267s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/microros/microros_ws/firmware/mcu_ws/build/microcdr
+[0.286s] -- Install configuration: "RelWithDebInfo"
+[0.286s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/lib/libmicrocdr.a
+[0.286s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr
+[0.286s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr/visibility.h
+[0.287s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr/microcdr.h
+[0.287s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr/config.h
+[0.287s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[0.287s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-relwithdebinfo.cmake
+[0.287s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[0.287s] -- Up-to-date: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.310s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/microros/microros_ws/firmware/mcu_ws/build/microcdr

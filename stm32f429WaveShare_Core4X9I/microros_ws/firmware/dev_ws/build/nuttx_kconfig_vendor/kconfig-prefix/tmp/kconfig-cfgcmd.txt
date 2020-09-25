@@ -1,0 +1,1 @@
+cmd='./configure;--enable-mconf;--prefix=/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor'

@@ -1,0 +1,107 @@
+[0.027s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/microros/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools -DBUILD_SHARED_LIBS=OFF -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/home/microros/microros_ws/firmware/apps/uros/arm_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DTRACETOOLS_DISABLED=ON -DTRACETOOLS_STATUS_CHECKING_TOOL=OFF -DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/firmware/mcu_ws/install/tracetools
+[0.155s] -- The C compiler identification is GNU 9.2.1
+[0.362s] -- The CXX compiler identification is GNU 9.2.1
+[0.380s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc
+[0.592s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc -- works
+[0.593s] -- Detecting C compiler ABI info
+[0.937s] -- Detecting C compiler ABI info - done
+[0.963s] -- Detecting C compile features
+[0.963s] -- Detecting C compile features - done
+[0.967s] -- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++
+[1.222s] -- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ -- works
+[1.223s] -- Detecting CXX compiler ABI info
+[1.428s] -- Detecting CXX compiler ABI info - done
+[1.444s] -- Detecting CXX compile features
+[1.445s] -- Detecting CXX compile features - done
+[1.447s] -- Found ament_cmake_ros: 0.9.0 (/home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[1.458s] CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.458s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.458s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.458s]   set the policy and suppress this warning.
+[1.458s] 
+[1.458s]   For compatibility with older versions of CMake, option is clearing the
+[1.459s]   normal variable 'BUILD_TESTING'.
+[1.459s] Call Stack (most recent call first):
+[1.459s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.459s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+[1.459s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+[1.459s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+[1.460s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+[1.460s]   CMakeLists.txt:15 (find_package)
+[1.460s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.460s] 
+[1.508s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[1.508s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.804s] CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/build_shared_libs.cmake:15 (option):
+[1.805s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.805s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.805s]   set the policy and suppress this warning.
+[1.805s] 
+[1.805s]   For compatibility with older versions of CMake, option is clearing the
+[1.805s]   normal variable 'BUILD_SHARED_LIBS'.
+[1.805s] Call Stack (most recent call first):
+[1.805s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:24 (include)
+[1.805s]   /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+[1.806s]   CMakeLists.txt:15 (find_package)
+[1.806s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.806s] 
+[1.969s] -- Configuring done
+[1.969s] -- Generating done
+[1.972s] -- Build files have been written to: /home/microros/microros_ws/firmware/mcu_ws/build/tracetools
+[2.233s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/microros/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools -DBUILD_SHARED_LIBS=OFF -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/home/microros/microros_ws/firmware/apps/uros/arm_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DTRACETOOLS_DISABLED=ON -DTRACETOOLS_STATUS_CHECKING_TOOL=OFF -DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/firmware/mcu_ws/install/tracetools
+[2.236s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/microros/microros_ws/firmware/mcu_ws/build/tracetools -- -j4 -l4
+[2.258s] make[4]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.258s] /usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools -B/home/microros/microros_ws/firmware/mcu_ws/build/tracetools --check-build-system CMakeFiles/Makefile.cmake 0
+[2.271s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/progress.marks
+[2.286s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[2.288s] make[5]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.289s] /usr/bin/make -f CMakeFiles/tracetools.dir/build.make CMakeFiles/tracetools.dir/depend
+[2.290s] make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.290s] cd /home/microros/microros_ws/firmware/mcu_ws/build/tracetools && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools /home/microros/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools /home/microros/microros_ws/firmware/mcu_ws/build/tracetools /home/microros/microros_ws/firmware/mcu_ws/build/tracetools /home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/tracetools.dir/DependInfo.cmake --color=
+[2.302s] Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/tracetools.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/tracetools.dir/depend.internal".
+[2.302s] Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/tracetools.dir/depend.internal".
+[2.302s] [35m[1mScanning dependencies of target tracetools[0m
+[2.306s] make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.307s] /usr/bin/make -f CMakeFiles/tracetools.dir/build.make CMakeFiles/tracetools.dir/build
+[2.309s] make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.320s] [ 33%] [32mBuilding C object CMakeFiles/tracetools.dir/src/tracetools.c.obj[0m
+[2.321s] /usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/.. -DROS_PACKAGE_NAME=\"tracetools\" -Dtracetools_VERSION=\"1.0.2\" -I/home/microros/microros_ws/firmware/mcu_ws/build/tracetools/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -o CMakeFiles/tracetools.dir/src/tracetools.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools/src/tracetools.c
+[2.337s] [ 66%] [32mBuilding CXX object CMakeFiles/tracetools.dir/src/utils.cpp.obj[0m
+[2.338s] /usr/bin/arm-none-eabi-g++ --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -DROS_PACKAGE_NAME=\"tracetools\" -Dtracetools_VERSION=\"1.0.2\" -I/home/microros/microros_ws/firmware/mcu_ws/build/tracetools/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c++14 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/tracetools.dir/src/utils.cpp.obj -c /home/microros/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools/src/utils.cpp
+[2.487s] [100%] [32m[1mLinking CXX static library libtracetools.a[0m
+[2.487s] /usr/bin/cmake -P CMakeFiles/tracetools.dir/cmake_clean_target.cmake
+[2.504s] /usr/bin/cmake -E cmake_link_script CMakeFiles/tracetools.dir/link.txt --verbose=1
+[2.515s] /usr/bin/arm-none-eabi-ar qc libtracetools.a  CMakeFiles/tracetools.dir/src/tracetools.c.obj CMakeFiles/tracetools.dir/src/utils.cpp.obj
+[2.524s] /usr/bin/arm-none-eabi-ranlib libtracetools.a
+[2.529s] make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.612s] [100%] Built target tracetools
+[2.613s] make[5]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.613s] /usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles 0
+[2.624s] make[4]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools'
+[2.630s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/microros/microros_ws/firmware/mcu_ws/build/tracetools -- -j4 -l4
+[2.707s] Invoking command in '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/microros/microros_ws/firmware/mcu_ws/build/tracetools
+[2.724s] -- Install configuration: "RelWithDebInfo"
+[2.724s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/include
+[2.724s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/include/tracetools
+[2.724s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/include/tracetools/tracetools.h
+[2.724s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/include/tracetools/utils.hpp
+[2.724s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/include/tracetools/config.h
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/include/tracetools/visibility_control.hpp
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/lib/libtracetools.a
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/ament_index/resource_index/package_run_dependencies/tracetools
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/ament_index/resource_index/parent_prefix_path/tracetools
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/environment/ament_prefix_path.sh
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/environment/ament_prefix_path.dsv
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/environment/path.sh
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/environment/path.dsv
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/local_setup.bash
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/local_setup.sh
+[2.725s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/local_setup.zsh
+[2.726s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/local_setup.dsv
+[2.726s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/package.dsv
+[2.726s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/ament_index/resource_index/packages/tracetools
+[2.726s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.726s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/cmake/tracetoolsConfig.cmake
+[2.726s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/cmake/tracetoolsConfig-version.cmake
+[2.726s] -- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/tracetools/share/tracetools/package.xml
+[3.093s] Invoked command in '/home/microros/microros_ws/firmware/mcu_ws/build/tracetools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/microros/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/microros/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/microros/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_pclint:/home/microros/microros_ws/firmware/dev_ws/install/ament_package:/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint:/home/microros/microros_ws/firmware/dev_ws/install/ament_index_python:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/microros/microros_ws/firmware/mcu_ws/build/tracetools

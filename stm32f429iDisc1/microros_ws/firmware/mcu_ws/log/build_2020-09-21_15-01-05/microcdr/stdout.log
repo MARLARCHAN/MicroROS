@@ -1,0 +1,116 @@
+-- The C compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/microros/microros_ws/firmware/mcu_ws/build/microcdr
+make[4]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/microros/microros_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/make -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/depend
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+cd /home/microros/microros_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/microros/microros_ws/firmware/mcu_ws/build/microcdr /home/microros/microros_ws/firmware/mcu_ws/build/microcdr /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/DependInfo.cmake --color=
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/depend.internal".
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/depend.internal".
+[35m[1mScanning dependencies of target ucdr[0m
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/make -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/build
+make[6]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[ 12%] [34m[1mCreating directories for 'ucdr'[0m
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/microcdr
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir
+[ 25%] [34m[1mNo download step for 'ucdr'[0m
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download
+[ 37%] [34m[1mNo patch step for 'ucdr'[0m
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch
+[ 50%] [34m[1mNo update step for 'ucdr'[0m
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update
+[ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+/usr/bin/cmake "-GUnix Makefiles" -C/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-RelWithDebInfo.cmake /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR
+loading initial cache file /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-RelWithDebInfo.cmake
+Re-run cmake no build system arguments
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/microros/microros_ws/firmware/mcu_ws/build/microcdr
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure
+[ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+/usr/bin/make
+make[7]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/cmake -S/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/microros/microros_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[8]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/make -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/depend
+make[9]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+cd /home/microros/microros_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/microros/microros_ws/firmware/mcu_ws/build/microcdr /home/microros/microros_ws/firmware/mcu_ws/build/microcdr /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake --color=
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/depend.internal".
+Dependee "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/depend.internal".
+[35m[1mScanning dependencies of target microcdr[0m
+make[9]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/make -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/build
+make[9]: Entering directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -I/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wsign-conversion -Wdouble-promotion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/common.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/common.c
+[ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj[0m
+[ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -I/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wsign-conversion -Wdouble-promotion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/basic.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/basic.c
+[ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -I/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wsign-conversion -Wdouble-promotion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/string.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/string.c
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -I/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wsign-conversion -Wdouble-promotion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/array.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/array.c
+[ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj[0m
+/usr/bin/arm-none-eabi-gcc --sysroot=/home/microros/microros_ws/firmware/NuttX/..  -I/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/microros/microros_ws/firmware/mcu_ws/build/microcdr/include -isystem /home/microros/microros_ws/firmware/NuttX/include -isystem /home/microros/microros_ws/firmware/NuttX/include/cxx -isystem /home/microros/microros_ws/firmware/NuttX/include/uClibc++  -std=c99 -Dunix=1 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Os -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wsign-conversion -Wdouble-promotion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj   -c /home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/sequence.c
+[100%] [32m[1mLinking C static library libmicrocdr.a[0m
+/usr/bin/cmake -P CMakeFiles/microcdr.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/microcdr.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libmicrocdr.a  CMakeFiles/microcdr.dir/src/c/common.c.obj CMakeFiles/microcdr.dir/src/c/types/basic.c.obj CMakeFiles/microcdr.dir/src/c/types/string.c.obj CMakeFiles/microcdr.dir/src/c/types/array.c.obj CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+/usr/bin/arm-none-eabi-ranlib libmicrocdr.a
+make[9]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+[100%] Built target microcdr
+make[8]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+make[7]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build
+[34m[1mNo install step for 'ucdr'[0m
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install
+[34m[1mCompleted 'ucdr'[0m
+/usr/bin/cmake -E make_directory /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr-complete
+/usr/bin/cmake -E touch /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-done
+make[6]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+Built target ucdr
+make[5]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+/usr/bin/cmake -E cmake_progress_start /home/microros/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+make[4]: Leaving directory '/home/microros/microros_ws/firmware/mcu_ws/build/microcdr'
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/lib/libmicrocdr.a
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr/visibility.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr/microcdr.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/include/ucdr/config.h
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-relwithdebinfo.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+-- Installing: /home/microros/microros_ws/firmware/mcu_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

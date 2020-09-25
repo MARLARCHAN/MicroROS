@@ -1,0 +1,4 @@
+source;share/nuttx_kconfig_vendor/local_setup.bash
+source;share/nuttx_kconfig_vendor/local_setup.dsv
+source;share/nuttx_kconfig_vendor/local_setup.sh
+source;share/nuttx_kconfig_vendor/local_setup.zsh

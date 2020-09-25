@@ -1,0 +1,59 @@
+CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/build_shared_libs.cmake:15 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_SHARED_LIBS'.
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:24 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+
+
+CMake Warning at CMakeLists.txt:150 (find_package):
+  By not providing "Findrosidl_typesupport_microxrcedds_cpp.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "rosidl_typesupport_microxrcedds_cpp", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosidl_typesupport_microxrcedds_cpp" with any of the following names:
+
+    rosidl_typesupport_microxrcedds_cppConfig.cmake
+    rosidl_typesupport_microxrcedds_cpp-config.cmake
+
+  Add the installation prefix of "rosidl_typesupport_microxrcedds_cpp" to
+  CMAKE_PREFIX_PATH or set "rosidl_typesupport_microxrcedds_cpp_DIR" to a
+  directory containing one of the above files.  If
+  "rosidl_typesupport_microxrcedds_cpp" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+[01m[K/home/microros/microros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microxrcedds_topic.c:[m[K In function '[01m[Kcreate_topic[m[K':
+[01m[K/home/microros/microros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microxrcedds_topic.c:97:10:[m[K [01;35m[Kwarning: [m[K'[01m[Kcustom_topic[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   97 |   return [01;35m[Kcustom_topic[m[K;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
