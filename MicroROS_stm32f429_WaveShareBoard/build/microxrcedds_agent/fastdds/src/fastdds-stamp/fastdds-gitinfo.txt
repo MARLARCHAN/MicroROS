@@ -1,3 +1,0 @@
-repository='https://github.com/eProsima/Fast-DDS.git'
-module=''
-tag='origin'

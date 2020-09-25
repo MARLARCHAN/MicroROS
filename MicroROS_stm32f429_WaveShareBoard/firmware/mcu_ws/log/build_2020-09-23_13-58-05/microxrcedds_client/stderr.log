@@ -1,7 +1,0 @@
-[01m[K/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix.c:[m[K In function '[01m[Kuxr_init_udp_platform[m[K':
-[01m[K/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix.c:46:18:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kgetaddrinfo[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
-   46 |         if (0 == [01;35m[Kgetaddrinfo[m[K(ip, port, &hints, &result))
-      |                  [01;35m[K^~~~~~~~~~~[m[K
-[01m[K/home/microros/microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix.c:58:9:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kfreeaddrinfo[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
-   58 |         [01;35m[Kfreeaddrinfo[m[K(result);
-      |         [01;35m[K^~~~~~~~~~~~[m[K
