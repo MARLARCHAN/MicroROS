@@ -1,7 +1,0 @@
-/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/yaml.h
-/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/config.h
-/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.a
-/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
-/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
-/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-relwithdebinfo.cmake
-/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake

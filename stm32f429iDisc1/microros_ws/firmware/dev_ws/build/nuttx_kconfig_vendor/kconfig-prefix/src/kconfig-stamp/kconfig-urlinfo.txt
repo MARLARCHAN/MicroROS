@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://bitbucket.org/nuttx/tools/get/065626205714.zip'
-tag=''

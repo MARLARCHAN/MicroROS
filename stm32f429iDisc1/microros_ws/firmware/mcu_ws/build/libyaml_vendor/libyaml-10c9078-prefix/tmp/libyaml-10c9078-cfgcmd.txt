@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/microros/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install;-DCMAKE_BUILD_TYPE=RelWithDebInfo;-DBUILD_SHARED_LIBS=ON;-DBUILD_TESTING=OFF;-DCMAKE_TOOLCHAIN_FILE=/home/microros/microros_ws/firmware/apps/uros/arm_toolchain.cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
