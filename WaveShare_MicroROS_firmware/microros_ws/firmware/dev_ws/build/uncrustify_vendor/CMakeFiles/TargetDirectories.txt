@@ -1,9 +1,0 @@
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/install/local.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/install.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/list_install_components.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/rebuild_cache.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/edit_cache.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/test.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/install/strip.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/uncrustify_vendor_uninstall.dir
-/home/microros/microros_ws/firmware/dev_ws/build/uncrustify_vendor/CMakeFiles/uninstall.dir

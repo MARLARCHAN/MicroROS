@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc librclc.a  CMakeFiles/rclc.dir/src/rclc/init.c.obj CMakeFiles/rclc.dir/src/rclc/publisher.c.obj CMakeFiles/rclc.dir/src/rclc/subscription.c.obj CMakeFiles/rclc.dir/src/rclc/timer.c.obj CMakeFiles/rclc.dir/src/rclc/node.c.obj CMakeFiles/rclc.dir/src/rclc/executor_handle.c.obj CMakeFiles/rclc.dir/src/rclc/executor.c.obj
-/usr/bin/arm-none-eabi-ranlib librclc.a
