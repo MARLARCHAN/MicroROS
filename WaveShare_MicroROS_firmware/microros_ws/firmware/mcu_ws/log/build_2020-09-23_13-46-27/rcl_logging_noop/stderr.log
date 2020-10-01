@@ -1,0 +1,36 @@
+CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/build_shared_libs.cmake:15 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_SHARED_LIBS'.
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:24 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+

@@ -1,0 +1,41 @@
+[0.242s] Invoking command in '/home/microros/microros_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify': AMENT_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/uncrustify_vendor PYTHONPATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify build --build-base /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build install --prefix /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify --record /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed
+[0.490s] running egg_info
+[0.490s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info
+[0.491s] writing /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[0.491s] writing dependency_links to /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[0.492s] writing entry points to /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[0.493s] writing requirements to /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[0.493s] writing top-level names to /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[0.493s] writing manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.524s] reading manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.525s] writing manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.525s] running build
+[0.525s] running build_py
+[0.526s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build
+[0.526s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib
+[0.527s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.527s] copying ament_uncrustify/main.py -> /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.529s] copying ament_uncrustify/__init__.py -> /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.529s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.529s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.529s] running install
+[0.529s] running install_lib
+[0.529s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[0.530s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[0.530s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[0.530s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[0.530s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[0.530s] byte-compiling /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/main.py to main.cpython-38.pyc
+[0.539s] byte-compiling /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/__init__.py to __init__.cpython-38.pyc
+[0.540s] running install_data
+[0.540s] copying package.xml -> /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_uncrustify
+[0.540s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index
+[0.540s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index
+[0.540s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.540s] copying resource/ament_uncrustify -> /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.540s] running install_egg_info
+[0.540s] Copying /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/ament_uncrustify.egg-info to /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify-0.9.5-py3.8.egg-info
+[0.541s] running install_scripts
+[0.564s] Installing ament_uncrustify script to /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/bin
+[0.564s] writing list of installed files to '/home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/install.log'
+[0.781s] Invoked command in '/home/microros/microros_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/uncrustify_vendor PYTHONPATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify build --build-base /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/build install --prefix /home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify --record /home/microros/microros_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed

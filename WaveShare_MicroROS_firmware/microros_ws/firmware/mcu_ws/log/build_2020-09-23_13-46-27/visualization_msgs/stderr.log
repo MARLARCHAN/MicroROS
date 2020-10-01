@@ -1,0 +1,47 @@
+CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rmw/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rmw/share/rmw/cmake/rmwConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_default_runtime/share/rosidl_default_runtime/cmake/rosidl_default_runtime-extras.cmake:12 (find_package)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_default_runtime/share/rosidl_default_runtime/cmake/rosidl_default_runtimeConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/mcu_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/microros/microros_ws/firmware/mcu_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+
+
+CMake Warning (dev) at /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/build_shared_libs.cmake:15 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_SHARED_LIBS'.
+Call Stack (most recent call first):
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:24 (include)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake:15 (find_package)
+  /home/microros/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /home/microros/microros_ws/firmware/mcu_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:35 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
