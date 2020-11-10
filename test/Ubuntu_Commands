@@ -1,0 +1,4 @@
+Kernel version check
+uname -r 
+5.4.0-42-generic
+
