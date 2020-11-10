@@ -1,0 +1,287 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.6 (/home/microros/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/microros/microros_ws/firmware/dev_ws/build/nuttx_kconfig_vendor
+[35m[1mScanning dependencies of target kconfig[0m
+[ 12%] [34m[1mCreating directories for 'kconfig'[0m
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'kconfig'[0m
+-- Downloading...
+   dst='/home/microros/microros_ws/firmware/dev_ws/build/nuttx_kconfig_vendor/kconfig-prefix/src/065626205714.zip'
+   timeout='none'
+-- Using src='https://bitbucket.org/nuttx/tools/get/065626205714.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/microros/microros_ws/firmware/dev_ws/build/nuttx_kconfig_vendor/kconfig-prefix/src/065626205714.zip'
+     dst='/home/microros/microros_ws/firmware/dev_ws/build/nuttx_kconfig_vendor/tools'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] [34m[1mNo update step for 'kconfig'[0m
+[ 50%] [34m[1mNo patch step for 'kconfig'[0m
+[ 62%] [34m[1mPerforming configure step for 'kconfig'[0m
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for inline... inline
+checking whether make sets $(MAKE)... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for bison... bison -y
+checking for gperf... gperf
+checking for the type used in gperf declarations... size_t
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking whether gettext is declared... yes
+checking for library containing gettext... none required
+checking ncursesw/curses.h usability... yes
+checking ncursesw/curses.h presence... yes
+checking for ncursesw/curses.h... yes
+checking for library containing setupterm... -ltinfo
+checking for library containing initscr... -lncursesw
+checking for library containing new_panel... -lpanelw
+checking for library containing menu_init... -lmenuw
+checking for gtk... no
+checking for Qt5... yes
+checking for moc-qt5... no
+checking for moc... /usr/lib/x86_64-linux-gnu/qt5/bin/moc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libs/parser/kconfig-parser.pc
+config.status: creating scripts/.autostuff/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: 
+configure: Configured with:
+configure: - parser library     : shared (version: 4.11.0)
+configure:   - root-menu prompt : Configuration
+configure:   - config prefix    : CONFIG_
+configure: - frontends          : kconfig conf mconf nconf qconf
+configure:   - localised        : yes
+configure: - install utilities  : yes
+configure: - CFLAGS CXXFLAGS    : -Wall 
+[ 75%] [34m[1mPerforming build step for 'kconfig'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+  GPERF    libs/parser/hconf.c
+  GEN      libs/images/images.c
+  GEN      libs/images/images.h
+  MOC      frontends/qconf/qconf.moc
+  CC       libs/lxdialog/libs_lxdialog_libkconfig_lxdialog_a-checklist.o
+  CC       libs/lxdialog/libs_lxdialog_libkconfig_lxdialog_a-inputbox.o
+  CC       libs/lxdialog/libs_lxdialog_libkconfig_lxdialog_a-menubox.o
+  CC       libs/lxdialog/libs_lxdialog_libkconfig_lxdialog_a-textbox.o
+  CC       libs/lxdialog/libs_lxdialog_libkconfig_lxdialog_a-util.o
+  CC       libs/lxdialog/libs_lxdialog_libkconfig_lxdialog_a-yesno.o
+  AR       libs/lxdialog/libkconfig-lxdialog.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       libs/images/images.o
+  AR       libs/images/libkconfig-images.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       libs/parser/libs_parser_libkconfig_parser_la-yconf.lo
+In file included from [01m[Klibs/parser/yconf.c:2507[m[K:
+[01m[Klibs/parser/confdata.c:[m[K In function ‘[01m[Kconf_write[m[K’:
+[01m[Klibs/parser/confdata.c:776:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K.tmpconfig.[m[K’ directive writing 11 bytes into a region of size between 1 and 4097 [[01;35m[K-Wformat-overflow=[m[K]
+  776 |   sprintf(tmpname, [01;35m[K"%s.tmpconfig.%d"[m[K, dirname, (int)getpid());
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[Klibs/parser/yconf.c:82[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 13 and 4119 bytes into a destination of size 4097
+   36 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  CCLD     libs/parser/libkconfig-parser.la
+  CC       frontends/conf/frontends_conf_kconfig_conf-conf.o
+  CCLD     frontends/conf/kconfig-conf
+  CC       frontends/mconf/frontends_mconf_kconfig_mconf-mconf.o
+  CCLD     frontends/mconf/kconfig-mconf
+  CC       frontends/nconf/frontends_nconf_kconfig_nconf-nconf.o
+  CC       frontends/nconf/frontends_nconf_kconfig_nconf-nconf.gui.o
+  CCLD     frontends/nconf/kconfig-nconf
+  CXX      frontends/qconf/frontends_qconf_kconfig_qconf-qconf.o
+  CXXLD    frontends/qconf/kconfig-qconf
+  CC       utils/utils_kconfig_gettext-gettext.o
+  CCLD     utils/kconfig-gettext
+  GEN      frontends/kconfig
+  GEN      utils/kconfig-tweak
+[ 87%] [34m[1mPerforming install step for 'kconfig'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+ /usr/bin/mkdir -p '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libs/parser/libkconfig-parser.la '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib'
+libtool: install: /usr/bin/install -c libs/parser/.libs/libkconfig-parser-4.11.0.so /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib/libkconfig-parser-4.11.0.so
+libtool: install: (cd /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib && { ln -s -f libkconfig-parser-4.11.0.so libkconfig-parser.so || { rm -f libkconfig-parser.so && ln -s libkconfig-parser-4.11.0.so libkconfig-parser.so; }; })
+libtool: install: /usr/bin/install -c libs/parser/.libs/libkconfig-parser.lai /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib/libkconfig-parser.la
+libtool: finish: PATH="/home/microros/microros_ws/firmware/dev_ws/install/ament_uncrustify/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_xmllint/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint_cmake/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_cpplint/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_cppcheck/bin:/home/microros/.local/bin:/opt/gcc/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/microros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c frontends/conf/kconfig-conf frontends/mconf/kconfig-mconf frontends/nconf/kconfig-nconf frontends/qconf/kconfig-qconf utils/kconfig-gettext '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin'
+libtool: install: /usr/bin/install -c frontends/conf/.libs/kconfig-conf /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin/kconfig-conf
+libtool: install: /usr/bin/install -c frontends/mconf/.libs/kconfig-mconf /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin/kconfig-mconf
+libtool: install: /usr/bin/install -c frontends/nconf/.libs/kconfig-nconf /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin/kconfig-nconf
+libtool: install: /usr/bin/install -c frontends/qconf/.libs/kconfig-qconf /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin/kconfig-qconf
+libtool: install: /usr/bin/install -c utils/.libs/kconfig-gettext /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin/kconfig-gettext
+ /usr/bin/mkdir -p '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin'
+ /usr/bin/install -c frontends/kconfig utils/kconfig-tweak '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin'
+ /usr/bin/mkdir -p '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin'
+ /usr/bin/install -c utils/kconfig-diff utils/kconfig-merge '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/bin'
+ /usr/bin/mkdir -p '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/doc/kconfig-frontends'
+ /usr/bin/install -c -m 644 docs/kconfig-language.txt docs/kconfig.txt '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/doc/kconfig-frontends'
+ /usr/bin/mkdir -p '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/include/kconfig'
+ /usr/bin/install -c -m 644 libs/parser/list.h libs/parser/lkc.h libs/parser/expr.h libs/parser/lkc_proto.h '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/include/kconfig'
+ /usr/bin/mkdir -p '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libs/parser/kconfig-parser.pc '/home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/lib/pkgconfig'
+[100%] [34m[1mCompleted 'kconfig'[0m
+[100%] Built target kconfig
+-- Install configuration: ""
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/ament_index/resource_index/package_run_dependencies/nuttx_kconfig_vendor
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/ament_index/resource_index/parent_prefix_path/nuttx_kconfig_vendor
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/environment/path.sh
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/environment/path.dsv
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/local_setup.bash
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/local_setup.sh
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/local_setup.zsh
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/local_setup.dsv
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/package.dsv
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/ament_index/resource_index/packages/nuttx_kconfig_vendor
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/cmake/nuttx_kconfig_vendorConfig.cmake
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/cmake/nuttx_kconfig_vendorConfig-version.cmake
+-- Installing: /home/microros/microros_ws/firmware/dev_ws/install/nuttx_kconfig_vendor/share/nuttx_kconfig_vendor/package.xml

@@ -1,0 +1,41 @@
+[0.368s] Invoking command in '/home/microros/microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_format': AMENT_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format build --build-base /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build install --prefix /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format --record /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed
+[0.643s] running egg_info
+[0.644s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info
+[0.644s] writing /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/PKG-INFO
+[0.644s] writing dependency_links to /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/dependency_links.txt
+[0.645s] writing entry points to /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/entry_points.txt
+[0.645s] writing requirements to /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/requires.txt
+[0.645s] writing top-level names to /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/top_level.txt
+[0.646s] writing manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[0.681s] reading manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[0.685s] writing manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[0.685s] running build
+[0.685s] running build_py
+[0.685s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build
+[0.685s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib
+[0.686s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[0.686s] copying ament_clang_format/main.py -> /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[0.686s] copying ament_clang_format/__init__.py -> /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[0.686s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[0.686s] copying ament_clang_format/configuration/.clang-format -> /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[0.686s] running install
+[0.686s] running install_lib
+[0.687s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[0.688s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/main.py -> /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[0.688s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/__init__.py -> /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[0.688s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/configuration
+[0.688s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration/.clang-format -> /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/configuration
+[0.688s] byte-compiling /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/main.py to main.cpython-38.pyc
+[0.688s] byte-compiling /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/__init__.py to __init__.cpython-38.pyc
+[0.688s] running install_data
+[0.688s] copying package.xml -> /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_clang_format
+[0.688s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index
+[0.689s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index
+[0.689s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[0.689s] copying resource/ament_clang_format -> /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[0.689s] running install_egg_info
+[0.690s] Copying /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/ament_clang_format.egg-info to /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format-0.9.5-py3.8.egg-info
+[0.690s] running install_scripts
+[0.720s] Installing ament_clang_format script to /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/bin
+[0.720s] writing list of installed files to '/home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/install.log'
+[0.944s] Invoked command in '/home/microros/microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_format' returned '0': AMENT_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format build --build-base /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/build install --prefix /home/microros/microros_ws/firmware/dev_ws/install/ament_clang_format --record /home/microros/microros_ws/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed

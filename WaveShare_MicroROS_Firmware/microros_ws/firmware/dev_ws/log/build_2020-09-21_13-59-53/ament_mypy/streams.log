@@ -1,0 +1,44 @@
+[0.284s] Invoking command in '/home/microros/microros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy build --build-base /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build install --prefix /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy --record /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed
+[0.569s] running egg_info
+[0.569s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info
+[0.570s] writing /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[0.570s] writing dependency_links to /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[0.570s] writing entry points to /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[0.570s] writing requirements to /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/requires.txt
+[0.570s] writing top-level names to /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[0.573s] writing manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.603s] reading manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.604s] writing manifest file '/home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.604s] running build
+[0.605s] running build_py
+[0.605s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build
+[0.605s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib
+[0.605s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.605s] copying ament_mypy/main.py -> /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.605s] copying ament_mypy/__init__.py -> /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.605s] copying ament_mypy/pytest_marker.py -> /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.606s] creating /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.606s] copying ament_mypy/configuration/ament_mypy.ini -> /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.606s] running install
+[0.606s] running install_lib
+[0.607s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[0.607s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[0.608s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[0.608s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[0.608s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[0.608s] copying /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[0.608s] byte-compiling /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/main.py to main.cpython-38.pyc
+[0.611s] byte-compiling /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/__init__.py to __init__.cpython-38.pyc
+[0.611s] byte-compiling /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.611s] running install_data
+[0.611s] copying package.xml -> /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_mypy
+[0.612s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index
+[0.612s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index
+[0.612s] creating /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[0.612s] copying resource/ament_mypy -> /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[0.612s] running install_egg_info
+[0.613s] Copying /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/ament_mypy.egg-info to /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.5-py3.8.egg-info
+[0.614s] running install_scripts
+[0.632s] Installing ament_mypy script to /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/bin
+[0.632s] writing list of installed files to '/home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/install.log'
+[0.685s] Invoked command in '/home/microros/microros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/microros/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/microros/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy build --build-base /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/build install --prefix /home/microros/microros_ws/firmware/dev_ws/install/ament_mypy --record /home/microros/microros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed
